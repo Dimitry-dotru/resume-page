@@ -1,0 +1,19 @@
+.dropdown-lang-list {
+  transition: .5s;
+  left: calc(100% + 30px);
+  min-height: 40px;
+  width: 100%;
+  max-width: 200px;
+  padding: 0 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.language-level-container:hover .dropdown-lang-list {
+  opacity: 1;
+  visibility: visible;
+}
